@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Layout from "@/components/layout"
-import imgerror from "../public/img/Pagina404.webp"
+import imgerror from "../public/Pagina404.webp"
 
 export default function Pagina404() {
     return (

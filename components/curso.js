@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logocurso from "../public/img/dogtraining.webp"
+import logocurso from "../public/dogtraining.webp"
 import Link from "next/link"
 
 export default function Curso({curso}) {

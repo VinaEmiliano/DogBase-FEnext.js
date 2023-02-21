@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import Logo from "../public/img/logo.webp"
+import Logo from "../public/logo.webp"
 import styles from "../styles/header.module.css"
 
 
@@ -30,7 +30,7 @@ export default function Header() {
                     Adiestramiento canino
                 </Link>
                 <Link href='/carrito' className={router.pathname === "/carrito" ? styles.active : ''}>
-                    <Image src={'/img/carrito.png'} width={30} height={20} alt={'imagen carrito'}/>
+                    <Image src={'/carrito.png'} width={30} height={20} alt={'imagen carrito'}/>
                 </Link>
             </nav>
         </header>

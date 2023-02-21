@@ -8,7 +8,7 @@ export default function Pagina404() {
         <Layout>
             <h1 className="titulo">Pagina no encontrada</h1>
             <div className="errorPage">
-                <Image src={imgerror} width={250} height={250} alt={'pagina no encontrada'}/>
+                
                 <Link href="/" className="btninfo">
                     Volver a Inicio
                 </Link>

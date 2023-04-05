@@ -1,10 +1,10 @@
 import { useState } from "react"
-/* import {useRouter} from 'next/router' */
+import {useRouter} from 'next/router'
 import Image from "next/image"
 import Layout from "@/components/layout"
 
 export default function Tipos({raza, agregarCarrito}) {
-/*     const router = useRouter() */
+    const router = useRouter()
     
     const [cantidad, setCantidad] = useState(0)
     
@@ -26,7 +26,7 @@ export default function Tipos({raza, agregarCarrito}) {
             cantidad,
         }
         agregarCarrito(razaSeleccionada)
-/*         router.push('/carrito') */
+        router.push('/carrito')
     }
     
     

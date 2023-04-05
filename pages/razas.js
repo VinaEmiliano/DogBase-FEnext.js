@@ -40,7 +40,7 @@ export default function Razas({razas}) {
 } */
 
 export async function getServerSideProps() {
-    const respuesta = await fetch(`${process.env.API_URL}/razas?populate=razaimg`)
+    const respuesta = await fetch(`${process.env.API_URL}/razas?populate=imagen`)
     const {data: razas} = await respuesta.json()
 
 
